@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  grade: 1.5
+  semester: 1
+  ects: 1
+  lecturer: MyString
+
+two:
+  name: MyString
+  grade: 1.5
+  semester: 1
+  ects: 1
+  lecturer: MyString
