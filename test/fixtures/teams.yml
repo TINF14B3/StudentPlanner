@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  carer: MyString
+  exam_subjects: MyString
+  members: MyString
+
+two:
+  name: MyString
+  carer: MyString
+  exam_subjects: MyString
+  members: MyString
