@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firstname: MyString
+  lastname: MyString
+  gender: MyString
+  mail: MyString
+  date_of_birth: 2015-11-16
+  course: MyString
+  semester: 1
+  begin_of_study: 2015-11-16
+  end_of_study: 2015-11-16
+  is_admin: false
+  is_carer: false
+
+two:
+  firstname: MyString
+  lastname: MyString
+  gender: MyString
+  mail: MyString
+  date_of_birth: 2015-11-16
+  course: MyString
+  semester: 1
+  begin_of_study: 2015-11-16
+  end_of_study: 2015-11-16
+  is_admin: false
+  is_carer: false
