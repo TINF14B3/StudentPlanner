@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151116202051) do
+ActiveRecord::Schema.define(version: 20151116202315) do
 
   create_table "calendars", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -26,6 +26,17 @@ ActiveRecord::Schema.define(version: 20151116202051) do
     t.string   "lecturer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "events", force: :cascade do |t|
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.boolean  "is_vacation"
+    t.string   "place"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "teams", force: :cascade do |t|
