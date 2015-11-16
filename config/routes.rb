@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :calendars
+
   resources :teams
 
   resources :courses
