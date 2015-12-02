@@ -1,5 +1,13 @@
 <p id="notice"><%= notice %></p>
 
+<% provide(:title, @user.firstname) %>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+<h1>
+  <%= gravatar_for @user %>
+</h1>
+
 <p>
   <strong>Firstname:</strong>
   <%= @user.firstname %>
@@ -57,3 +65,6 @@
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+      </section>
+    </aside>
+</div>

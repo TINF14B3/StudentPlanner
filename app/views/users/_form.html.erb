@@ -1,8 +1,9 @@
 <%= form_for(@user) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
+      <div class="alert alert-danger">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
+</div>
       <ul>
       <% @user.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -10,6 +11,11 @@
       </ul>
     </div>
   <% end %>
+
+    <div class="field">
+      <%= f.label :gender %><br>
+      <%= f.text_field :gender %>
+    </div>
 
   <div class="field">
     <%= f.label :firstname %><br>
@@ -19,14 +25,22 @@
     <%= f.label :lastname %><br>
     <%= f.text_field :lastname %>
   </div>
-  <div class="field">
-    <%= f.label :gender %><br>
-    <%= f.text_field :gender %>
-  </div>
+
   <div class="field">
     <%= f.label :mail %><br>
-    <%= f.text_field :mail %>
+    <%= f.email_field :mail %>
   </div>
+
+    <div class="field">
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+    </div>
+
+    <div class="field">
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation %>
+    </div>
+
   <div class="field">
     <%= f.label :date_of_birth %><br>
     <%= f.date_select :date_of_birth %>
@@ -56,6 +70,6 @@
     <%= f.check_box :is_carer %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Create my Account!", class: "btn btn-primary"%>
   </div>
 <% end %>
