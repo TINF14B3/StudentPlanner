@@ -1,0 +1,4 @@
+StudentPlanner:
+  image: rails
+  expose:
+   - "3000"
