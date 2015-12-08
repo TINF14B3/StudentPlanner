@@ -1,4 +1,6 @@
 StudentPlanner:
-  image: rails
+  image: dominikm/studentplanner
+  environment:
+   - VIRTUAL_HOST=sample.tinf14b3.de
   expose:
-   - "3000"
+   - "80:3000"
