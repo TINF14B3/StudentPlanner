@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'nokogiri', '>= 1.6.7.rc'
 
+gem 'sprockets-rails', '>=2.1.4'
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -27,7 +29,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Adding bootstrap
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
