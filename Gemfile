@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'nokogiri', '>= 1.6.7.rc'
 
-gem 'sprockets-rails', '>=2.1.4'
+# gem 'sprockets-rails', '>=2.1.4'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Use jquery as the JavaScript library
@@ -49,5 +49,15 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'rspec'
+  gem 'rspec-rails'
+
+  gem 'database_cleaner'
+end
+
+group :test do
+  gem 'cucumber-rails', :require => false
+  gem 'capybara'
 end
 
