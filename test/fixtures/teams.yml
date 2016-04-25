@@ -6,8 +6,8 @@ one:
   exam_subjects: MyString
   members: MyString
 
-two:
-  name: MyString
-  carer: MyString
-  exam_subjects: MyString
-  members: MyString
+#two:
+#  name: MyString
+#  carer: MyString
+#  exam_subjects: MyString
+#  members: MyString

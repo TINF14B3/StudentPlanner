@@ -8,10 +8,10 @@ one:
   is_vacation: false
   place: MyString
 
-two:
-  start_time: 2015-11-16 21:23:15
-  end_time: 2015-11-16 21:23:15
-  start_date: 2015-11-16
-  end_date: 2015-11-16
-  is_vacation: false
-  place: MyString
+#two:
+#  start_time: 2015-11-16 21:23:15
+#  end_time: 2015-11-16 21:23:15
+#  start_date: 2015-11-16
+#  end_date: 2015-11-16
+#  is_vacation: false
+#  place: MyString

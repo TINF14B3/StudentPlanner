@@ -14,10 +14,10 @@ one:
   is_carer: false
 
 two:
-  firstname: MyString
-  lastname: MyString
-  gender: MyString
-  mail: MyString
+  firstname: Testuser2
+  lastname: Testlastname
+  gender: Male
+  mail: anything@mail.com
   date_of_birth: 2015-11-16
   course: MyString
   semester: 1
