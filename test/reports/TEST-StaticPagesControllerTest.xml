@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StaticPagesControllerTest" tests="2" time="0.038555" failures="0" errors="0" skipped="0" assertions="2" timestamp="2016-04-25T23:32:23+02:00">
-  <testcase name="test_should_get_help" time="0.026100274997588713" assertions="1">
+<testsuite name="StaticPagesControllerTest" tests="2" time="0.035481" failures="0" errors="0" skipped="0" assertions="2" timestamp="2016-04-26T01:48:29+02:00">
+  <testcase name="test_should_get_home" time="0.028885701001854613" assertions="1">
   </testcase>
-  <testcase name="test_should_get_home" time="0.013365111997700296" assertions="1">
+  <testcase name="test_should_get_help" time="0.00945517200307222" assertions="1">
   </testcase>
 </testsuite>

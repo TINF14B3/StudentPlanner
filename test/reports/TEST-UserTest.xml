@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserTest" tests="2" time="0.015912" failures="0" errors="0" skipped="0" assertions="2" timestamp="2016-04-25T23:32:23+02:00">
-  <testcase name="test_name_should_be_present" time="0.012975618003110867" assertions="1">
+<testsuite name="UserTest" tests="2" time="0.051911" failures="0" errors="0" skipped="0" assertions="2" timestamp="2016-04-26T01:48:28+02:00">
+  <testcase name="test_should_be_valid" time="0.04398981999838725" assertions="1">
   </testcase>
-  <testcase name="test_should_be_valid" time="0.0052149880066281185" assertions="1">
+  <testcase name="test_name_should_be_present" time="0.008399626996833831" assertions="1">
   </testcase>
 </testsuite>

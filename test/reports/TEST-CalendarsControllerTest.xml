@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalendarsControllerTest" tests="7" time="0.097321" failures="0" errors="1" skipped="0" assertions="10" timestamp="2016-04-25T23:32:23+02:00">
-  <testcase name="test_should_destroy_calendar" time="0.03177539200260071" assertions="0">
+<testsuite name="CalendarsControllerTest" tests="7" time="0.204916" failures="0" errors="1" skipped="0" assertions="10" timestamp="2016-04-26T01:48:28+02:00">
+  <testcase name="test_should_get_index" time="0.042651304000173695" assertions="2">
+  </testcase>
+  <testcase name="test_should_get_edit" time="0.03829326299455715" assertions="1">
+  </testcase>
+  <testcase name="test_should_destroy_calendar" time="0.050403343004290946" assertions="0">
     <error type="ActiveRecord::StatementInvalid" message="ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: events.calendar_id: SELECT &quot;events&quot;.* FROM &quot;events&quot; WHERE &quot;events&quot;.&quot;calendar_id&quot; = ?...">
 ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: events.calendar_id: SELECT "events".* FROM "events" WHERE "events"."calendar_id" = ?
     app/controllers/calendars_controller.rb:57:in `destroy'
@@ -8,16 +12,12 @@ ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: events.ca
     test/controllers/calendars_controller_test.rb:43:in `block in &lt;class:CalendarsControllerTest&gt;' (ActiveRecord::StatementInvalid)
 /Users/dominik/RubymineProjects/StudentPlanner/test/controllers/calendars_controller_test.rb:43    </error>
   </testcase>
-  <testcase name="test_should_get_index" time="0.02344686700234888" assertions="2">
+  <testcase name="test_should_get_new" time="0.01086232099623885" assertions="1">
   </testcase>
-  <testcase name="test_should_show_calendar" time="0.009498788000200875" assertions="1">
+  <testcase name="test_should_create_calendar" time="0.02051245699840365" assertions="3">
   </testcase>
-  <testcase name="test_should_create_calendar" time="0.00952126299671363" assertions="3">
+  <testcase name="test_should_show_calendar" time="0.0148453929941752" assertions="1">
   </testcase>
-  <testcase name="test_should_get_new" time="0.016377654996176716" assertions="1">
-  </testcase>
-  <testcase name="test_should_get_edit" time="0.018116901999746915" assertions="1">
-  </testcase>
-  <testcase name="test_should_update_calendar" time="0.0058738770021591336" assertions="2">
+  <testcase name="test_should_update_calendar" time="0.010823431999597233" assertions="2">
   </testcase>
 </testsuite>
