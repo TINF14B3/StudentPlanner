@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EventsControllerTest" tests="7" time="0.211959" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-25T23:32:22+02:00">
+  <testcase name="test_should_get_index" time="0.054991747994790785" assertions="2">
+  </testcase>
+  <testcase name="test_should_get_new" time="0.041591385001083836" assertions="1">
+  </testcase>
+  <testcase name="test_should_show_event" time="0.01159726900368696" assertions="1">
+  </testcase>
+  <testcase name="test_should_update_event" time="0.017261115994188003" assertions="2">
+  </testcase>
+  <testcase name="test_should_destroy_event" time="0.01881995100120548" assertions="3">
+  </testcase>
+  <testcase name="test_should_get_edit" time="0.05298942299850751" assertions="1">
+  </testcase>
+  <testcase name="test_should_create_event" time="0.024626022997836117" assertions="3">
+  </testcase>
+</testsuite>

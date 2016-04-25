@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TeamsControllerTest" tests="7" time="0.138118" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-25T23:32:23+02:00">
+  <testcase name="test_should_create_team" time="0.021971491994918324" assertions="3">
+  </testcase>
+  <testcase name="test_should_get_new" time="0.028728411998599768" assertions="1">
+  </testcase>
+  <testcase name="test_should_show_team" time="0.013815498998155817" assertions="1">
+  </testcase>
+  <testcase name="test_should_get_edit" time="0.013488153002981562" assertions="1">
+  </testcase>
+  <testcase name="test_should_get_index" time="0.018074986001010984" assertions="2">
+  </testcase>
+  <testcase name="test_should_destroy_team" time="0.009240172999852803" assertions="3">
+  </testcase>
+  <testcase name="test_should_update_team" time="0.020224449996021576" assertions="2">
+  </testcase>
+</testsuite>

@@ -54,10 +54,13 @@ group :development, :test do
   gem 'rspec-rails'
 
   gem 'database_cleaner'
+  gem 'ci_reporter_minitest'
 end
 
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'guard-rspec'
 end
 

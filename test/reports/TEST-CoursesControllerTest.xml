@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CoursesControllerTest" tests="7" time="0.145624" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-25T23:32:23+02:00">
+  <testcase name="test_should_create_course" time="0.041700699999637436" assertions="3">
+  </testcase>
+  <testcase name="test_should_destroy_course" time="0.014409167000849266" assertions="3">
+  </testcase>
+  <testcase name="test_should_show_course" time="0.0345702650010935" assertions="1">
+  </testcase>
+  <testcase name="test_should_update_course" time="0.007321479999518488" assertions="2">
+  </testcase>
+  <testcase name="test_should_get_edit" time="0.02132020499993814" assertions="1">
+  </testcase>
+  <testcase name="test_should_get_new" time="0.02097739600139903" assertions="1">
+  </testcase>
+  <testcase name="test_should_get_index" time="0.008441166995908134" assertions="2">
+  </testcase>
+</testsuite>
