@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoursesControllerTest" tests="7" time="0.186529" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-26T01:48:28+02:00">
-  <testcase name="test_should_show_course" time="0.144029244002013" assertions="1">
+<testsuite name="CoursesControllerTest" tests="7" time="0.193147" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-27T00:59:14+02:00">
+  <testcase name="test_should_show_course" time="0.4168248010028037" assertions="1">
   </testcase>
-  <testcase name="test_should_destroy_course" time="0.025689460002467968" assertions="3">
+  <testcase name="test_should_update_course" time="0.008344494002813008" assertions="2">
   </testcase>
-  <testcase name="test_should_create_course" time="0.017363753002427984" assertions="3">
+  <testcase name="test_should_destroy_course" time="0.0051405749982222915" assertions="3">
   </testcase>
-  <testcase name="test_should_update_course" time="0.022229057001823094" assertions="2">
+  <testcase name="test_should_get_new" time="0.06586055999650853" assertions="1">
   </testcase>
-  <testcase name="test_should_get_edit" time="0.03387748000386637" assertions="1">
+  <testcase name="test_should_get_edit" time="0.030303065999760292" assertions="1">
   </testcase>
-  <testcase name="test_should_get_new" time="0.026366776000941172" assertions="1">
+  <testcase name="test_should_create_course" time="0.014319551002699882" assertions="3">
   </testcase>
-  <testcase name="test_should_get_index" time="0.013400808995356783" assertions="2">
+  <testcase name="test_should_get_index" time="0.011151924001751468" assertions="2">
   </testcase>
 </testsuite>

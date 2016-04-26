@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TeamsControllerTest" tests="7" time="0.717595" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-26T01:48:27+02:00">
-  <testcase name="test_should_update_team" time="0.3037118919964996" assertions="2">
+<testsuite name="TeamsControllerTest" tests="7" time="0.302199" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-27T00:59:14+02:00">
+  <testcase name="test_should_get_edit" time="0.052532915004121605" assertions="1">
   </testcase>
-  <testcase name="test_should_get_new" time="0.566234126999916" assertions="1">
+  <testcase name="test_should_destroy_team" time="0.015090431996213738" assertions="3">
   </testcase>
-  <testcase name="test_should_destroy_team" time="0.0163752000007662" assertions="3">
+  <testcase name="test_should_show_team" time="0.026770698998006992" assertions="1">
   </testcase>
-  <testcase name="test_should_create_team" time="0.026081406002049334" assertions="3">
+  <testcase name="test_should_get_new" time="0.034265426998899784" assertions="1">
   </testcase>
-  <testcase name="test_should_get_edit" time="0.021612247001030482" assertions="1">
+  <testcase name="test_should_get_index" time="0.08077996700012591" assertions="2">
   </testcase>
-  <testcase name="test_should_get_index" time="0.015746283999760635" assertions="2">
+  <testcase name="test_should_create_team" time="0.01203131699730875" assertions="3">
   </testcase>
-  <testcase name="test_should_show_team" time="0.013475043000653386" assertions="1">
+  <testcase name="test_should_update_team" time="0.0206467550015077" assertions="2">
   </testcase>
 </testsuite>
