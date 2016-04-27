@@ -68,3 +68,8 @@ group :test do
   gem 'guard-rspec'
 end
 
+group :development do
+  gem 'rubocop'
+  gem 'rubocop-checkstyle_formatter', require: false
+end
+
