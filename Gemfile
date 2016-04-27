@@ -68,6 +68,8 @@ group :test do
   gem 'guard-rspec'
 end
 
+gem "codeclimate-test-reporter", group: :test, require: nil
+
 group :development do
   gem 'rubocop'
   gem 'rubocop-checkstyle_formatter', require: false

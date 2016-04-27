@@ -1,3 +1,6 @@
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
 if( ENV['COVERAGE'] == 'on' )
   require 'simplecov'
   require 'simplecov-rcov'
