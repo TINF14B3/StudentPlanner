@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalendarsControllerTest" tests="7" time="0.129579" failures="0" errors="0" skipped="0" assertions="10" timestamp="2016-04-27T00:59:15+02:00">
-  <testcase name="test_should_get_index" time="0.05105369700322626" assertions="2">
+<testsuite name="CalendarsControllerTest" tests="7" time="0.151636" failures="0" errors="0" skipped="0" assertions="10" timestamp="2016-04-27T13:44:57+02:00">
+  <testcase name="test_should_create_calendar" time="0.029631427001731936" assertions="3">
   </testcase>
-  <testcase name="test_should_create_calendar" time="0.011474552004074212" assertions="3">
+  <testcase name="test_should_get_new" time="0.02421733499795664" assertions="1">
   </testcase>
-  <testcase name="test_should_get_edit" time="0.028013124996505212" assertions="1">
+  <testcase name="test_should_destroy_calendar" time="0.0033936100007849745" assertions="0">
   </testcase>
-  <testcase name="test_should_destroy_calendar" time="0.0031295930020860396" assertions="0">
+  <testcase name="test_should_get_index" time="0.021618222999677528" assertions="2">
   </testcase>
-  <testcase name="test_should_get_new" time="0.0326840190027724" assertions="1">
+  <testcase name="test_should_update_calendar" time="0.011856247001560405" assertions="2">
   </testcase>
-  <testcase name="test_should_show_calendar" time="0.03660303899960127" assertions="1">
+  <testcase name="test_should_get_edit" time="0.012410511000780389" assertions="1">
   </testcase>
-  <testcase name="test_should_update_calendar" time="0.015216359999612905" assertions="2">
+  <testcase name="test_should_show_calendar" time="0.022921572999621276" assertions="1">
   </testcase>
 </testsuite>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EventsControllerTest" tests="7" time="0.247876" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-27T00:59:15+02:00">
-  <testcase name="test_should_get_index" time="0.0487118669989286" assertions="2">
+<testsuite name="EventsControllerTest" tests="7" time="0.119086" failures="0" errors="0" skipped="0" assertions="13" timestamp="2016-04-27T13:44:57+02:00">
+  <testcase name="test_should_get_edit" time="0.06339848299830919" assertions="1">
   </testcase>
-  <testcase name="test_should_show_event" time="0.029784757003653795" assertions="1">
+  <testcase name="test_should_create_event" time="0.00856776800355874" assertions="3">
   </testcase>
-  <testcase name="test_should_get_new" time="0.06354270500014536" assertions="1">
+  <testcase name="test_should_get_new" time="0.02057811600388959" assertions="1">
   </testcase>
-  <testcase name="test_should_create_event" time="0.017014380006003194" assertions="3">
+  <testcase name="test_should_destroy_event" time="0.009857402998022735" assertions="3">
   </testcase>
-  <testcase name="test_should_get_edit" time="0.05207033400074579" assertions="1">
+  <testcase name="test_should_get_index" time="0.015708761995483655" assertions="2">
   </testcase>
-  <testcase name="test_should_destroy_event" time="0.006720162004057784" assertions="3">
+  <testcase name="test_should_show_event" time="0.01780589699774282" assertions="1">
   </testcase>
-  <testcase name="test_should_update_event" time="0.01709453899820801" assertions="2">
+  <testcase name="test_should_update_event" time="0.013926867999543902" assertions="2">
   </testcase>
 </testsuite>
